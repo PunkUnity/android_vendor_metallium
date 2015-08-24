@@ -17,9 +17,13 @@
 $(call inherit-product, device/htc/m8/full_m8.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/metallium/config/nfc_enhanced.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/metallium/config/common_full_phone.mk)
 
-PRODUCT_NAME := cm_m8
+PRODUCT_NAME := metallium_m8
+PRODUCT_DEVICE := m8
+PRODUCT_BRAND := htc
+PRODUCT_MANUFACTURER := htc
+PRODUCT_MODEL := One M8

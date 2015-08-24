@@ -30,7 +30,7 @@ $(call inherit-product-if-exists, vendor/htc/m8/m8-vendor.mk)
 $(call inherit-product, device/htc/m8/device.mk)
 
 # Set those variables here to overwrite the inherited values
-PRODUCT_NAME := full_m8
+PRODUCT_NAME := metallium_m8
 PRODUCT_DEVICE := m8
 PRODUCT_BRAND := htc
 PRODUCT_MANUFACTURER := htc
